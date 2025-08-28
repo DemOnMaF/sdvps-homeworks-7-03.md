@@ -33,6 +33,9 @@
 ```
 
 ![image](img/01.01.png)
+![image](img/01.02.png)
+![image](img/01.03.png)
+![image](img/01.04.png)
 
 </details>
 
