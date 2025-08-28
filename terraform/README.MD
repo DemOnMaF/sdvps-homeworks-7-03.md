@@ -1,7 +1,7 @@
-# 1. Создать сервисный аккаунт в облаке. Выдать права editor
-# 2. Выпустить авторизованный ключ для этого аккаунта и скачать его по пути ~/.authorized_key.json . 
-# 3. Вписать в переменные cloud_id и folder_id в variables.tf
-# 4. Изменить ssh-ключ в файле cloud-init.yml (ssh-keygen -t ed25519). cp .terraformrc ~/.terraformrc
+1. Создать сервисный аккаунт в облаке. Выдать права editor
+2. Выпустить авторизованный ключ для этого аккаунта и скачать его по пути ~/.authorized_key.json . 
+3. Вписать в переменные cloud_id и folder_id в variables.tf
+4. Изменить ssh-ключ в файле cloud-init.yml (ssh-keygen -t ed25519); (ssh-keygen -y -f — команда, которая извлекает публичный ключ из приватного). cp .terraformrc ~/.terraformrc
 5. terraform init && terraform apply
 6. rm ~/.ssh/known_hosts. Выполнить playbook ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -i ./hosts.ini test.yml
 7. По окончании выполнить terraform destroy
