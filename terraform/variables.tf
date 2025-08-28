@@ -1,6 +1,6 @@
 variable "flow" {
   type    = string
-  default = "28-04"
+  default = "28-08"
 }
 
 variable "cloud_id" {
