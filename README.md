@@ -26,11 +26,7 @@
 <details>
 <summary>Вывод</summary>
 
-```yml
----
 
-
-```
 
 ![image](img/01.01.png)
 ![image](img/01.02.png)
@@ -51,13 +47,11 @@
 <details>
 <summary>Вывод</summary>
 
-```yml
----
 
-
-```
 
 ![image](img/02.01.png)
+![image](img/02.02.png)
+![image](img/02.03.png)
 
 </details>
 

@@ -21,3 +21,15 @@
       copy:
         dest: /tmp/test
         content: "success"
+
+    - name: install nginx
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+
+    - name: Enable and start nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
